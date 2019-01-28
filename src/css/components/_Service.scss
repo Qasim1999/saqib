@@ -1,0 +1,155 @@
+.service{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #4A5C6A;
+    .title{
+        position: absolute;
+        top: 70px;
+        color: white;
+    }
+    .title2{
+        position: absolute;
+        top: 120px;
+        font-size: 18px;
+        color: white;
+    }
+    .info1, .info2, .info3{
+        position: absolute;
+        top: 200px;
+     
+        left: 120px;
+        height: 300px;
+        width: 250px;
+        background-color: #394A55;
+        img, .img1, .img2{
+            position: absolute;
+            top: -60px; 
+            left: 55px;
+        }
+        .info-diamond, .info-diamond1, .info-diamond2{
+            position: absolute;
+            top: 85px;
+            left: 50px;
+            font-size: 18px;
+            color: #A8AEB2;
+            word-spacing: 5px;
+            span{
+                margin-left: 30px;
+            }
+        }
+        .More-info, .More-info1, .More-info2{
+            position: relative;
+            text-align: center;
+            font-size: 18px;
+            line-height: 25px;
+            top: 150px;
+            color: #8A8C8E;
+        }
+    }
+    .info2{
+        left: 500px;
+    }
+    .info3{
+        left: 880px;
+    }
+
+.sec{
+    position: absolute;
+    background-color: #131C29;
+    top: 580px;
+    width: 100%;
+    height: 100vh;
+
+.img4{
+    
+    width: 40%;
+   margin-top: 110px;
+}
+
+.More-info3{
+    font-size: 35px;
+    line-height: 35px;
+    margin-top: -300px;
+    margin-left: 600px;
+    color: white;
+}
+
+.pa{
+
+color: white;
+font-size: 25px;
+margin-left: 600px;
+margin-top: 20px;
+}
+
+
+button{
+width: 20%;
+height: 50px;
+margin-left: 700px;
+margin-top: 30px;
+background: #FF3F2D;
+color: white;
+font-size: 20px;
+border: none;
+}
+button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+  
+}
+.pepole{
+    width: 100%;
+    height: 100vh;
+    background: url(../Img/bg.jpg);
+    background-size: cover;
+    margin-top: 2350px;
+}
+
+.pepole h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.pepole p{
+    font-size: 25px; 
+    color: rgb(1, 13, 32);
+    text-align: center;
+}
+.pepole .first{
+    position: relative;
+    top: 150px;
+    left: 5%;
+    height: 200px;
+    width: 45%;
+    background-color: transparent;
+}
+.first img{
+    margin-left: 30px; 
+    border-radius: 70px;
+}
+.first p{
+    margin-top: -25px;
+    color: white;
+}
+.pepole .second{
+    position: relative;
+    top: -50px;
+    left: 55%;
+    height: 200px;
+    width: 45%;
+    background-color: transparent;
+}
+.second img{
+    margin-left: 30px; 
+    border-radius: 70px;
+}
+.second p{
+    margin-top: -25px;
+    color: white;
+}
+
+}

@@ -1,0 +1,30 @@
+.profile {
+    height: 90vh; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background: #1E2933
+}
+
+.data{
+    width:25%; 
+    height: 55vh;  
+    color: white; 
+    margin: 20px; 
+    text-align: center; 
+  
+}
+
+.data img{
+    height: 180px; 
+    width: 180px;   
+}
+
+.info{
+    width: 90% ; 
+    height: 150px;   
+}
+
+p
+{padding: 5px; font-size: 18px; padding-top: 20px;}
